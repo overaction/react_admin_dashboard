@@ -1,9 +1,4 @@
 .container {
     display: flex;
-    height: 100vh;
-}
-
-.others {
-    flex: 4;
-    
+    margin-top: 10px;
 }
