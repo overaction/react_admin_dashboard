@@ -9,9 +9,11 @@ export default function Sidebar() {
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">대쉬보드</h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem active">
-                            <LineStyle className="sidebarIcon" />홈
-                        </li>
+                        <Link to="/" className="link">
+                            <li className="sidebarListItem active">
+                                <LineStyle className="sidebarIcon" />홈
+                            </li>
+                        </Link>
                         <li className="sidebarListItem">
                             <Timeline className="sidebarIcon" />
                             분석
@@ -32,10 +34,10 @@ export default function Sidebar() {
                             </li>
                         </Link>
                         <Link to="/products" className="link">
-                        <li className="sidebarListItem">
-                            <Storefront className="sidebarIcon" />
-                            제품
-                        </li>
+                            <li className="sidebarListItem">
+                                <Storefront className="sidebarIcon" />
+                                제품
+                            </li>
                         </Link>
                         <li className="sidebarListItem">
                             <AttachMoney className="sidebarIcon" />
