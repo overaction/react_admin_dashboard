@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import UserList from './pages/userList/UserList';
 import User from './pages/user/User';
 import NewUser from './pages/newUser/NewUser';
+import ProductList from './pages/productList/ProductList';
 
 function App() {
   return (
@@ -25,6 +26,15 @@ function App() {
                 </Route>
                 <Route path="/newUser">
                   <NewUser />
+                </Route>
+                <Route path="/products">
+                  <ProductList />
+                </Route>
+                <Route exact path="/products/:productsId">
+                  <ProductList />
+                </Route>
+                <Route path="/newproduct">
+                  <ProductList />
                 </Route>
               </Switch>
           </div>
