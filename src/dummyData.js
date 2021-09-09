@@ -47,6 +47,21 @@ export const userData = [
     name: '12월',
     'Active User': 3490,
   },
+];
+
+export const productData = [
+  {
+    name: '1월',
+    '가격': 4000,
+  },
+  {
+    name: '2월',
+    '가격': 3000,
+  },
+  {
+    name: '3월',
+    '가격': 2000,
+  },
 ]
 
 export const rows = [
